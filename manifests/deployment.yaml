@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:rakesh-does-not-exist-999
+          image: nginx:1.27
           ports:
             - containerPort: 80
